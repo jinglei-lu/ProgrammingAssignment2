@@ -40,7 +40,3 @@ cacheSolve <- function(x) {
     x$setInverse(i)
     i
 }
-
-cachedM = makeCacheMatrix(matrix(c(1,2,3,4),2,2))
-cacheSolve(cachedM)
-
